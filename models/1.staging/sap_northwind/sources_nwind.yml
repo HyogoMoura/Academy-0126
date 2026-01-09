@@ -17,6 +17,6 @@ sources:
             description: chave estrangeira para conectar com tabela customer
 
           
-      - name: orders_details
+      - name: order_details
 
 
