@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: nwind
+    database: fea_academy
+    schema: northwind
+    tables:
+      - name: orders
+        description: tabela ordem do rp da northwind
+        columns:
+          - name: order_id
+            description: Chave primaria do grao de ordens
+            tests:
+              - unique
+              - not_null
+          - name: customer_id
+            description: chave estrangeira para conectar com tabela customer
+
+          
+      - name: order_details
+
+
